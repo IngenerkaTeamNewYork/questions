@@ -5,11 +5,9 @@
 #include <ostream>
 #include <fstream>
 #include <vector>
-
 int main()
 {
-    txCreateWindow(600, 400);
-
+    txCreateWindow(600,400);
     int i = 0;
     questionLib::readFile();
     while (i < 100)

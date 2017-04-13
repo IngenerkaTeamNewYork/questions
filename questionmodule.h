@@ -77,7 +77,6 @@ namespace questionModule
         }
 
         /*/ Init /*/
-        txSetFillColor(TX_WHITE);
         txClear();
         imageBackGround = txLoadImage ("imageBackGround.bmp");
         txBitBlt (txDC(), 0, 0, 800, 600, imageBackGround, 0, 0);
