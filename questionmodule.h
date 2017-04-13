@@ -15,26 +15,33 @@ namespace questionModule
     unsigned int number[100];
     char* question[100];
 
+
+
     namespace
     {
-        HDC imageBackGround;
+    HDC imageBackGround;
     }
 
-    bool buttonState1() {
+    bool buttonState1()
+    {
         return (txMouseX() >=  100 and txMouseX() <= 250 and txMouseY() >= 250 and txMouseY() <= 350 and txMouseButtons() == 1);
     }
 
-    bool buttonState2() {
+    bool buttonState2()
+    {
         return (txMouseX() >= 350  and txMouseX() <= 500  and txMouseY() >= 250  and txMouseY() <= 350  and txMouseButtons() == 1);
     }
 
     int rightAnswer;
 
-    int isRightAnswer() {
-        if (rightAnswer == 1 and buttonState1()) {
+    int isRightAnswer()
+    {
+        if (rightAnswer == 1 and buttonState1())
+        {
             return One;
         }
-        if (rightAnswer == 2 and buttonState2()) {
+        if (rightAnswer == 2 and buttonState2())
+        {
             return Two;
         }
         return NoAnswer;
