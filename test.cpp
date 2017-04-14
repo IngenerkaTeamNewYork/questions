@@ -5,6 +5,10 @@
 #include <ostream>
 #include <fstream>
 #include <vector>
+#include <string>
+#include <stdio.h>
+#include <assert.h>
+
 int main()
 {
     txCreateWindow(600,400);

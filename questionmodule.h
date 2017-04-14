@@ -15,12 +15,7 @@ namespace questionModule
     unsigned int number[100];
     char* question[100];
 
-
-
-    namespace
-    {
     HDC imageBackGround;
-    }
 
     bool buttonState1()
     {
@@ -65,7 +60,7 @@ namespace questionModule
     void _END()
     {
         txDeleteDC(imageBackGround);
-        txSleep(100);
+        txSleep(150);
     }
 
     void runQuestionModule(unsigned int number, const char* q, const char* a = "Да", const char* a2 = "Нет")
