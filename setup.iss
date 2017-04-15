@@ -15,8 +15,8 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=README.rtf
-OutputBaseFilename=setup
+LicenseFile=licence.rtf
+OutputBaseFilename=mysetup
 Compression=lzma
 SolidCompression=yes
 
